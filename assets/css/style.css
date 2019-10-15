@@ -219,8 +219,11 @@ input[type=submit] {
 
 /* screens are 640px width or less */
 @media screen and (max-width: 640px) {
-  #logo,.auth-image, .work {
+  #logo, nav, .auth-image, .work {
     width: 100%;
+  }
+  nav {
+    text-align: center;
   }
 }
 
