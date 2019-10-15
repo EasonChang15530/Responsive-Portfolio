@@ -217,9 +217,9 @@ input[type=submit] {
 }
 
 
-/* On screens that are 640px wide or less, make the logo, nav, work occupy 100% width */
+/* screens are 640px width or less */
 @media screen and (max-width: 640px) {
-  #logo, .work {
+  #logo,.auth-image, .work {
     width: 100%;
   }
 }
